@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormService } from '../../services/form.service'; // Import the service
 import { formItem } from 'src/app/interfaces';
@@ -6,7 +6,8 @@ import { formItem } from 'src/app/interfaces';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ContactComponent implements OnInit {
 

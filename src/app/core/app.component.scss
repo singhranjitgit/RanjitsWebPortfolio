@@ -8,6 +8,9 @@ body {
 header {
   background-color: #333;
   padding: 10px 0;
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .navbar {
