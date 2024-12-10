@@ -1,0 +1,41 @@
+{
+    "HOMEPAGE": {
+      "HOME": "Startseite",
+      "ABOUT": "Über mich",
+      "CONTACT": "Kontakt",
+      "INTRO": "Hallo, ich bin Ranjeet Singh",
+      "ENGLISH": "Englisch",
+      "GERMAN": "Deutsch",
+      "DESCRIPTION": "Ich bin ein leidenschaftlicher Softwareentwickler, der sich auf den Aufbau von Webanwendungen mit Angular, JavaScript und mehr spezialisiert hat."
+    },
+    "ABOUTPAGE": {
+      "ABOUT_ME": "Über mich",
+      "DESCRIPTION": "Ich bin ein leidenschaftlicher Softwareentwickler mit Erfahrung in der Erstellung moderner Webanwendungen. Es macht mir Spaß, komplexe Probleme zu lösen und Lösungen zu entwickeln, die einen Unterschied machen. Hier sind einige weitere Informationen über mich.",
+      "SKILL_N_TECH": "Fähigkeiten & Technologien",
+      "EXPERIENCE": "Erfahrung",
+      "DESC_INTRO": "Ich habe an verschiedenen Projekten gearbeitet, die von Webanwendungen bis zu Backend-Systemen reichen, unter Verwendung von Tools wie Angular, Node.js.",
+      "WANNA_MORE": "Möchten Sie mehr wissen?",
+      "CONTACT_ME": "Kontaktieren Sie mich"
+    },
+    "CONTACTPAGE": {
+      "CONTACT_ME": "Kontaktieren Sie mich",
+      "INTRO": "Zögern Sie nicht, mich über das untenstehende Formular zu erreichen. Ich werde so schnell wie möglich antworten.",
+      "NAME": "Ihr Name",
+      "NAME_PLACEHOLDER": "Geben Sie Ihren Namen ein",
+      "EMAILL": "Ihre E-Mail",
+      "EMAIL_PLACEHOLDER": "Geben Sie Ihre E-Mail ein",
+      "MESSAGE": "Ihre Nachricht",
+      "MESSAGE_SENT": "Nachricht erfolgreich gesendet",
+      "SUCCESS": "Erfolg",
+      "CLOSE": "Schließen",
+      "MESSAGE_PLACEHOLDER": "Geben Sie Ihre Nachricht ein",
+      "SEND_MSG": "Nachricht senden",
+      "REQUIRED": "ist erforderlich.",
+      "EMAIL_ERR": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "TEXTBOX": "muss mindestens 10 Zeichen lang sein.",
+      "TEXTBOX_SECOND": "darf 100 Zeichen nicht überschreiten.",
+      "ERRORD": "Fehler",
+      "MESSAGE_NOT_SENT": "Nachricht nicht gesendet"
+    }
+  }
+  

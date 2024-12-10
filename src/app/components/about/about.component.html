@@ -1,0 +1,23 @@
+<div class="about-container">
+    <div class="about-header">
+      <h2>{{"ABOUTPAGE.ABOUT_ME" | translate}}</h2>
+      <p>{{"ABOUTPAGE.DESCRIPTION" | translate}}</p>
+    </div>
+  
+    <div class="about-details">
+      <h3>{{"ABOUTPAGE.SKILL_N_TECH" | translate}}</h3>
+      <ul>
+        <li *ngFor="let skill of skills">{{ skill }}</li>
+      </ul>
+  
+      <h3>{{"ABOUTPAGE.EXPERIENCE" | translate}}</h3>
+      <p>
+        {{"ABOUTPAGE.DESC_INTRO" | translate}}
+      </p>
+    </div>
+  
+    <div class="about-footer">
+      <p>{{"ABOUTPAGE.WANNA_MORE" | translate}} <a [routerLink]="routes.contact">{{"ABOUTPAGE.CONTACT_ME" | translate}}</a></p>
+    </div>
+  </div>
+  

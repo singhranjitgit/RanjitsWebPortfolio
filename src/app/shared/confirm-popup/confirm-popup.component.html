@@ -1,0 +1,15 @@
+<ng-container *ngIf="success; else notSuccess">
+    <h2 mat-dialog-title>{{ 'CONTACTPAGE.SUCCESS' | translate }}</h2>
+<mat-dialog-content>
+  <p>{{ 'CONTACTPAGE.MESSAGE_SENT' | translate }}</p>
+</mat-dialog-content>
+</ng-container>
+<ng-template #notSuccess>
+ <h2 mat-dialog-title>{{ 'CONTACTPAGE.ERRORD' | translate }}</h2>
+<mat-dialog-content>
+   <p>{{ 'CONTACTPAGE.MESSAGE_NOT_SENT' | translate }}</p>
+</mat-dialog-content>
+</ng-template>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">{{ 'CONTACTPAGE.CLOSE' | translate }}</button>
+</mat-dialog-actions>

@@ -1,0 +1,40 @@
+{
+ "HOMEPAGE": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "CONTACT": "Contact",
+    "INTRO": "Hello, I'm Ranjeet Singh",
+    "ENGLISH": "English",
+    "GERMAN": "Deutsch",
+    "DESCRIPTION": "I'm a passionate software engineer specializing in building web applications with Angular, JavaScript, and more." 
+ },
+ "ABOUTPAGE": {
+    "ABOUT_ME": "About Me",
+    "DESCRIPTION": "I am a passionate software engineer with experience in building modern web applications. I enjoy solving complex problems and building solutions that make a difference. Below is some more information about me.",
+    "SKILL_N_TECH": "Skills & Technologies",
+    "EXPERIENCE": "Experience",
+    "DESC_INTRO": "I have worked on various projects ranging from web applications to backend systems, leveraging tools like Angular, Node.js.",
+    "WANNA_MORE": "Want to know more?",
+    "CONTACT_ME": "Contact me"
+ },
+ "CONTACTPAGE": {
+    "CONTACT_ME": "Contact Me",
+    "INTRO": "Feel free to reach out to me using the form below. I’ll get back to you as soon as possible.",
+    "NAME": "Your Name",
+    "NAME_PLACEHOLDER": "Enter your name",
+    "EMAILL": "Your Email",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "MESSAGE": "Your Message",
+    "MESSAGE_SENT": "Message send Successfully",
+    "SUCCESS": "Success",
+    "CLOSE": "Close",
+    "MESSAGE_PLACEHOLDER": "Enter your message",
+    "SEND_MSG": "Send Message",
+    "REQUIRED": "is required.",
+    "EMAIL_ERR": "Please enter a valid email.",
+    "TEXTBOX": "must be at least 10 characters long.",
+    "TEXTBOX_SECOND": "cannot exceed 100 characters.",
+    "ERRORD": "Error",
+    "MESSAGE_NOT_SENT": "Message not sent"
+ }
+}

@@ -1,0 +1,25 @@
+::ng-deep .mat-dialog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    max-width: 500px; 
+    margin: auto;
+  }
+  
+  .mat-dialog-title {
+    text-align: center; 
+  }
+  
+  .mat-dialog-content {
+    text-align: center; 
+  }
+  
+::ng-deep .cdk-overlay-container{
+    position: relative;
+    left: 0%;
+    top: -272px !important;
+}
+.mdc-dialog__actions{
+    justify-content: center !important;
+}

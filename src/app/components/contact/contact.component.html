@@ -1,0 +1,46 @@
+
+<div class="contact-container">
+    <div class="contact-header">
+      <h2>{{"CONTACTPAGE.CONTACT_ME" | translate}}</h2>
+      <p>{{"CONTACTPAGE.INTRO" | translate}}</p>
+    </div>
+    
+    <div class="contact-form">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <ng-container *ngFor="let item of formList; let i= last">
+          <div class="form-group">
+            <ng-container *ngIf="!i; else lastOne">
+              <label>{{item.title | translate}}</label>
+              <input type="text" [formControlName]="item.controlName" placeholder="{{ item.placeholderName | translate}}" />
+              <div *ngIf="contactForm.get(item.controlName)?.touched && contactForm.get(item.controlName)?.invalid" class="error-message">
+                <div *ngIf="contactForm.get(item.controlName)?.hasError('required')" class="error">
+                  {{ item.title | translate }} {{ "CONTACTPAGE.REQUIRED" | translate }}
+                </div>
+                <div *ngIf="contactForm.get(item.controlName)?.hasError('email')" class="error">
+                  {{ "CONTACTPAGE.EMAIL_ERR" | translate }}
+                </div>
+              </div>
+            </ng-container>
+            <ng-template #lastOne>
+              <label>{{item.title | translate}}</label>
+              <textarea [formControlName]="item.controlName" placeholder="{{ item.placeholderName | translate}}" rows="5"></textarea>
+              <div *ngIf="contactForm.get(item.controlName)?.touched && contactForm.get(item.controlName)?.invalid" class="error-message">
+                <div *ngIf="contactForm.get(item.controlName)?.hasError('required')" class="error">
+                  {{ item.title | translate }} {{ "CONTACTPAGE.REQUIRED" | translate }}
+                </div>
+                <div *ngIf="contactForm.get(item.controlName)?.hasError('minlength')" class="error">
+                  {{ item.title | translate }} {{ "CONTACTPAGE.TEXTBOX" | translate }}
+                </div>
+                <div *ngIf="contactForm.get(item.controlName)?.hasError('maxlength')" class="error">
+                  {{ item.title | translate }} {{ "CONTACTPAGE.TEXTBOX_SECOND" | translate }}
+                </div>
+              </div>
+            </ng-template>
+          </div>
+        </ng-container>
+        
+        <button type="submit" [disabled]="contactForm.invalid">{{"CONTACTPAGE.SEND_MSG" | translate}}</button>
+      </form>
+    </div>
+  </div>
+  
