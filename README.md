@@ -64,5 +64,5 @@ To get more help on the Angular CLI use ng help or go check out the Angular CLI 
 
 # FYI
 
-This site is mainly made to showcase code structure and quality the design is just made for computer view and is limited focous in mobile view.
+This site has been primarily developed to showcase the code structure and quality. While the design has been optimized for desktop viewing, the mobile view is currently more limited in focus.
 
