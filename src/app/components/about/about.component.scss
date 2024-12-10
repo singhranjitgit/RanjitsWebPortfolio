@@ -1,71 +1,67 @@
 .about-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    margin-top: 50px;
-  }
-  
-  .about-header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .about-header h2 {
+  max-width: 900px;
+  margin: 50px auto 0;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+
+  h2 {
     font-size: 2.5rem;
     color: #333;
     font-weight: bold;
     margin-bottom: 10px;
   }
-  
-  .about-header p {
+
+  p {
     color: #666;
     font-size: 1.1rem;
   }
-  
-  .about-details {
-    font-size: 1.2rem;
-  }
-  
-  .about-details h3 {
+}
+
+.about-details {
+  font-size: 1.2rem;
+
+  h3 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 15px;
   }
-  
-  .about-details ul {
+
+  ul {
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
   }
-  
-  .about-details li {
+
+  li {
     font-size: 1.1rem;
     color: #333;
     margin: 5px 0;
   }
-  
-  .about-footer {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 1.2rem;
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
   }
-  
-  .about-footer a {
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2rem;
+
+  a {
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
-  }
-  
-  .about-footer a:hover {
-    text-decoration: underline;
-  }
-  
-  @media (max-width: 768px) {
-    .about-details {
-      padding: 0 20px;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
-  
+}
