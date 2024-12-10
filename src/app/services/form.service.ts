@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { ConfirmPopupComponent } from '../shared/confirm-popup/confirm-popup.component';
-import { formItem, placeholder } from '../interfaces';
+import { formItem } from '../interfaces';
 
 @Injectable({
   providedIn: 'root'
@@ -48,13 +48,5 @@ export class FormService {
       { title: 'CONTACTPAGE.EMAILL', controlName: 'email', placeholderName: 'CONTACTPAGE.EMAIL_PLACEHOLDER' },
       { title: 'CONTACTPAGE.MESSAGE', controlName: 'message', placeholderName: 'CONTACTPAGE.MESSAGE_PLACEHOLDER' }
     ];
-  }
-
-  getContactFormPlaceholders(): placeholder{
-    return {
-        name: 'CONTACTPAGE.NAME_PLACEHOLDER',
-        email: 'CONTACTPAGE.EMAIL_PLACEHOLDER',
-        message: 'CONTACTPAGE.MESSAGE_PLACEHOLDER'
-      }
   }
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormService } from '../../services/form.service'; // Import the service
-import { formItem, placeholder } from 'src/app/interfaces';
+import { formItem } from 'src/app/interfaces';
 
 @Component({
   selector: 'app-contact',
@@ -12,8 +12,6 @@ export class ContactComponent implements OnInit {
 
   contactForm!: FormGroup;
   formList: Array<formItem> = this.formService.getContactFormInputList();
-
-  placeholders: placeholder = this.formService.getContactFormPlaceholders();
 
   constructor(private formService: FormService) {}
 

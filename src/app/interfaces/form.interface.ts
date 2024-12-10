@@ -3,9 +3,3 @@ export interface formItem {
     controlName: string;  
     placeholderName: string;
   }
-
-export interface placeholder{
-    name: string;
-    email: string;
-    message: string;
-}
