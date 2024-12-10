@@ -62,3 +62,7 @@ service is injected into the AppComponent for centralized management of state an
 
 To get more help on the Angular CLI use ng help or go check out the Angular CLI Overview and Command Reference page.
 
+# FYI
+
+This site is mainly made to showcase code structure and quality the design is just made for computer view and is limited focous in mobile view.
+
