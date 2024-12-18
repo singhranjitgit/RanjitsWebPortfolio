@@ -13,6 +13,7 @@ export class AppComponent {
   routes: RoutesConfig;
   navList: NavItem[];
   langList: LangItem[];
+  show: boolean = false
 
   constructor(private appService: AppService) {
     this.appService.handleLanguageIntialization()

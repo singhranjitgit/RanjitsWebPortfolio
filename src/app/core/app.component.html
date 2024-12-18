@@ -1,9 +1,49 @@
+<div *ngIf="!show" class="hamburger">
+  <button (click)="show= true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>    
+  </button>
+</div>
+<div class="navbarr" *ngIf="show">
+  <button class="hamburger" (click)="show= false">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>    
+  </button>
+  <ul class="mobile-nav-list">
+    <ng-container *ngFor="let item of navList">
+      <li class="mobile-nav-item">
+        <a (click)="show=false" [routerLink]="item.routeLink"
+           routerLinkActive="active"
+           [routerLinkActiveOptions]="{exact: true}"
+           class="mobile-nav-link">
+          {{ item.title | translate }}
+        </a>
+      </li>
+    </ng-container>
+
+    <li class="mobile-nav-item">
+      <ng-container *ngFor="let item of langList">
+        <button 
+          (click)="switchLanguage(item.nickTitle)" 
+          class="mobile-language-button" 
+          [ngClass]="{'active-language': currentLanguage === item.nickTitle}">
+          {{ item.title | translate }}
+        </button>
+      </ng-container>
+    </li>
+  </ul>
+</div>
 <header>
   <nav class="navbar">
     <ul class="nav-list">
       <!-- Loop through navigation items -->
       <ng-container *ngFor="let item of navList">
-        <li class="nav-item">
+        <li class="nav-item"> 
           <a [routerLink]="item.routeLink"
              routerLinkActive="active" 
              [routerLinkActiveOptions]="{exact: true}" 
