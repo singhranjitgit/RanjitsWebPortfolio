@@ -29,6 +29,7 @@ export class AppService {
       { title: 'HOMEPAGE.HOME', routeLink: this.routes.home },
       { title: 'HOMEPAGE.ABOUT', routeLink: this.routes.about },
       { title: 'HOMEPAGE.CONTACT', routeLink: this.routes.contact },
+      { title: 'HOMEPAGE.WORK', routeLink: this.routes.work },
     ];
   }
 
