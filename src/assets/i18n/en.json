@@ -3,6 +3,7 @@
     "HOME": "Home",
     "ABOUT": "About",
     "CONTACT": "Contact",
+    "WORK": "Work",
     "INTRO": "Hello, I'm Ranjit Singh",
     "ENGLISH": "English",
     "GERMAN": "German",
@@ -36,5 +37,8 @@
     "TEXTBOX_SECOND": "cannot exceed 100 characters.",
     "ERRORD": "Error",
     "MESSAGE_NOT_SENT": "Message not sent"
- }
+ },
+ "WORKPAGE":{
+      "HEADING": "Module under development !!"
+   }
 }
