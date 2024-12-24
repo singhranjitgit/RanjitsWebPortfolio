@@ -13,6 +13,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ConfirmPopupComponent } from '../shared/confirm-popup/confirm-popup.component';
 import { WorkComponent } from '../components/work/work.component';
+import { LogregComponent } from '../components/log-reg/log-reg.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -23,7 +24,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutComponent,
     ContactComponent,
     ConfirmPopupComponent,
-    WorkComponent
+    WorkComponent,
+    LogregComponent
   ],
   imports: [
     BrowserModule,
