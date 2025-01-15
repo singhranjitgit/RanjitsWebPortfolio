@@ -14,6 +14,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { ConfirmPopupComponent } from '../shared/confirm-popup/confirm-popup.component';
 import { WorkComponent } from '../components/work/work.component';
 import { LogregComponent } from '../components/log-reg/log-reg.component';
+import { HighLightDirective } from '../Directives/work.directive';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -25,7 +26,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContactComponent,
     ConfirmPopupComponent,
     WorkComponent,
-    LogregComponent
+    LogregComponent,
+    HighLightDirective
   ],
   imports: [
     BrowserModule,
