@@ -1,11 +1,121 @@
-.container{
-    max-width: 800px;
-    margin: 50px auto 0;
-    padding: 30px;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    background-color: #f0f4f8;
+}
+
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: repeat(2, auto);    
+    gap: 20px;                            
+    width: 80%;                           
+    max-width: 1200px;                   
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.tile {
+    background-color: #728795;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; 
+    background-size: cover !important;
+    background-position: center !important;
+    height: 19rem;
+}
+
+.tile:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.tile img {
+    width: 100%;
+    max-width: 288px;
+    height: 186px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tile h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.tile p {
+    font-size: 14px;
+    color: #ecf0f1;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.tile a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.tile a:hover {
+    background-color: #16a085;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .tile img {
+        max-width: 150px;
+        height: 150px;
+    }
+}
+.projects-header {
+    text-align: center;
+}
+
+.projects-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.projects-header p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
 }
