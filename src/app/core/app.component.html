@@ -42,6 +42,7 @@
   <nav class="navbar">
     <ul class="nav-list">
       <!-- Loop through navigation items -->
+      <div>
       <ng-container *ngFor="let item of navList">
         <li class="nav-item"> 
           <a [routerLink]="item.routeLink"
@@ -52,6 +53,7 @@
           </a>
         </li>
       </ng-container>
+      </div>
 
       <!-- Language Switcher -->
       <li class="nav-item">

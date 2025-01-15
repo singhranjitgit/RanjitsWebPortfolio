@@ -39,6 +39,8 @@
     "MESSAGE_NOT_SENT": "Message not sent"
  },
  "WORKPAGE":{
-      "HEADING": "Module under development !!"
+      "HEADING": "Featured Projects",
+      "SUB_HEADING": "Here are just a few of our recent projects.",
+      "BTN_TXT": "Visit Project"
    }
 }
