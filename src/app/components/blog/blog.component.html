@@ -1,0 +1,13 @@
+<header>
+    <h1>{{'HOMEPAGE.MY_BLOG'}}</h1>
+</header>
+
+<main class="blog-page">
+    <article class="post-detail" *ngIf="blogInfo">
+        <h2 class="post-title">{{blogInfo?.name}}</h2>
+        <p class="post-date">{{blogInfo?.date}}</p>
+        <div class="post-content">
+            <p>{{blogInfo?.description}}</p>
+        </div>
+    </article>
+</main>
