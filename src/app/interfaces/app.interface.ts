@@ -7,3 +7,9 @@ export interface LangItem {
     title: string;   
     nickTitle: string; 
 }
+
+export interface Blog{
+  name: string;
+  date: string;
+  description: string
+}

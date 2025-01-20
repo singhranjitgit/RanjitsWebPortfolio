@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Blog Post Detail */
+.blog-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-detail {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.post-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.post-date {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.post-content ul {
+    margin-top: 20px;
+}
+
+.post-content li {
+    margin-bottom: 10px;
+}
+
+/* Comments Section */
+.comments-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.comment-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    font-size: 1em;
+    color: #555;
+}
+
+.comment-form {
+    margin-top: 30px;
+}
+
+.comment-form h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.comment-form button.submit-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.comment-form button.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}

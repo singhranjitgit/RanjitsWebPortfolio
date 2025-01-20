@@ -15,6 +15,8 @@ import { ConfirmPopupComponent } from '../shared/confirm-popup/confirm-popup.com
 import { WorkComponent } from '../components/work/work.component';
 import { LogregComponent } from '../components/log-reg/log-reg.component';
 import { HighLightDirective } from '../Directives/work.directive';
+import { BlogsComponent } from '../components/blogs/blogs.component';
+import { BlogComponent } from '../components/blog/blog.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -27,6 +29,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ConfirmPopupComponent,
     WorkComponent,
     LogregComponent,
+    BlogsComponent,
+    BlogComponent,
     HighLightDirective
   ],
   imports: [
