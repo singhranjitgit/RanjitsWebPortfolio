@@ -11,5 +11,6 @@ export interface LangItem {
 export interface Blog{
   name: string;
   date: string;
-  description: string
+  description: string;
+  content?: string;
 }

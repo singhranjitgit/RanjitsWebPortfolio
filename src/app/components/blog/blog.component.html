@@ -7,7 +7,7 @@
         <h2 class="post-title">{{blogInfo?.name}}</h2>
         <p class="post-date">{{blogInfo?.date}}</p>
         <div class="post-content">
-            <p>{{blogInfo?.description}}</p>
+            <p [innerHTML]="blogInfo?.content"></p>
         </div>
     </article>
 </main>
