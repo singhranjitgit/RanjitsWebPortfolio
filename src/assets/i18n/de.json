@@ -1,5 +1,5 @@
 {
-  "HOMEPAGE": {
+   "HOMEPAGE": {
      "HOME": "Startseite",
      "ABOUT": "Über mich",
      "CONTACT": "Kontakt",
@@ -7,20 +7,24 @@
      "INTRO": "Hallo, ich bin Ranjit Singh",
      "ENGLISH": "Englisch",
      "GERMAN": "Deutsch",
-     "DESCRIPTION": "Ich bin ein leidenschaftlicher MEAN/MERN Stack-Entwickler mit mehr als 8 Jahren Erfahrung in der Webentwicklungsbranche"
-  },
-  "ABOUTPAGE": {
+     "BLOGS": "Blogs",
+     "MY_BLOG": "Mein Blog",
+     "FAQS": "Häufig gestellte Fragen",
+     "BLOG_T": "Häufig gestellte Fragen",
+     "DESCRIPTION": "Ich bin ein leidenschaftlicher MEAN/MERN Stack Entwickler mit mehr als 8 Jahren Erfahrung in der Webentwicklungsbranche"
+   },
+   "ABOUTPAGE": {
      "ABOUT_ME": "Über mich",
-     "DESCRIPTION": "Ich bin ein leidenschaftlicher Softwareingenieur mit Erfahrung im Aufbau moderner Webanwendungen. Ich genieße es, komplexe Probleme zu lösen und Lösungen zu entwickeln, die einen Unterschied machen. Hier sind einige weitere Informationen über mich.",
+     "DESCRIPTION": "Ich bin ein leidenschaftlicher Softwareentwickler mit Erfahrung in der Erstellung moderner Webanwendungen. Es macht mir Spaß, komplexe Probleme zu lösen und Lösungen zu entwickeln, die einen Unterschied machen. Hier ist noch mehr Information über mich.",
      "SKILL_N_TECH": "Fähigkeiten & Technologien",
      "EXPERIENCE": "Erfahrung",
-     "DESC_INTRO": "Ich habe an verschiedenen Projekten gearbeitet, die von Webanwendungen bis hin zu Backend-Systemen reichen, unter Verwendung von Tools wie Angular, Node.js.",
+     "DESC_INTRO": "Ich habe an verschiedenen Projekten gearbeitet, von Webanwendungen bis hin zu Backend-Systemen, wobei ich Tools wie Angular und Node.js verwendet habe.",
      "WANNA_MORE": "Möchten Sie mehr erfahren?",
      "CONTACT_ME": "Kontaktieren Sie mich"
-  },
-  "CONTACTPAGE": {
+   },
+   "CONTACTPAGE": {
      "CONTACT_ME": "Kontaktieren Sie mich",
-     "INTRO": "Zögern Sie nicht, mich über das untenstehende Formular zu kontaktieren. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+     "INTRO": "Zögern Sie nicht, mich über das untenstehende Formular zu kontaktieren. Ich werde so schnell wie möglich antworten.",
      "NAME": "Ihr Name",
      "NAME_PLACEHOLDER": "Geben Sie Ihren Namen ein",
      "EMAILL": "Ihre E-Mail",
@@ -31,17 +35,17 @@
      "CLOSE": "Schließen",
      "MESSAGE_PLACEHOLDER": "Geben Sie Ihre Nachricht ein",
      "SEND_MSG": "Nachricht senden",
-     "REQUIRED": "ist erforderlich.",
+     "REQUIRED": "wird benötigt.",
      "EMAIL_ERR": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
      "TEXTBOX": "muss mindestens 10 Zeichen lang sein.",
      "TEXTBOX_SECOND": "darf 100 Zeichen nicht überschreiten.",
      "ERRORD": "Fehler",
      "MESSAGE_NOT_SENT": "Nachricht nicht gesendet"
-  },
-  "WORKPAGE": {
-       "HEADING": "Ausgewählte Projekte",
-       "SUB_HEADING": "Hier sind nur einige unserer neuesten Projekte.",
-       "BTN_TXT": "Projekt besuchen"
-    }
+   },
+   "WORKPAGE": {
+     "HEADING": "Hervorgehobene Projekte",
+     "SUB_HEADING": "Hier sind nur einige unserer jüngsten Projekte.",
+     "BTN_TXT": "Projekt besuchen"
+   }
  }
  

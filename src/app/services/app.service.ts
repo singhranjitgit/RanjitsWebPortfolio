@@ -31,6 +31,7 @@ export class AppService {
       { title: 'HOMEPAGE.CONTACT', routeLink: this.routes.contact },
       { title: 'HOMEPAGE.WORK', routeLink: this.routes.work },
       { title: 'HOMEPAGE.BLOGS', routeLink: this.routes.blogs },
+      { title: 'HOMEPAGE.FAQS', routeLink: this.routes.faq },
     ];
   }
 

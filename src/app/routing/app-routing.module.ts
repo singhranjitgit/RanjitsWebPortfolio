@@ -7,6 +7,7 @@ import { WorkComponent } from '../components/work/work.component';
 import { LogregComponent } from '../components/log-reg/log-reg.component';
 import { BlogsComponent } from '../components/blogs/blogs.component';
 import { BlogComponent } from '../components/blog/blog.component';
+import { FaqComponent } from '../components/faqs/faq.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },  
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'work', component: WorkComponent },
   { path: 'logreg', component: LogregComponent },
+  { path: 'faq', component: FaqComponent },
   { path: 'blogs', 
     children: [
       {path: '', component: BlogsComponent},

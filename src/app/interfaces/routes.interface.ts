@@ -4,4 +4,5 @@ export interface RoutesConfig {
     contact: string;
     work: string;
     blogs: string;
+    faq: string;
 }

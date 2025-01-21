@@ -1,0 +1,11 @@
+<section class="faq-section">
+    <h2>{{"HOMEPAGE.BLOG_T" | translate}}</h2>
+    <div class="faq-container">
+        <div class="faq-item" *ngFor="let faqItem of faqItems; let i=index">
+            <button class="faq-question" (click)="toggleAnswer(i)">{{faqItem.question}}</button>
+            <div class="faq-answer" *ngIf="faqItem.isActive">
+                <p>{{faqItem.answer}}</p>
+            </div>
+        </div>
+    </div>
+</section>
