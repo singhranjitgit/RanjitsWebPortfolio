@@ -1,13 +1,14 @@
 @media (max-width: 768px) {
     .landing {
-      display: flex;
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 100vh; 
-      padding: 20px; 
-      box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          background-color: #f4f4f4;
+          height: 45.3vw;
+          box-shadow: 0 6px 12px #0000001a;
+          width: 100%;
     }
   
     .hero {
