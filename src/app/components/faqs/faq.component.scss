@@ -39,14 +39,13 @@ h2 {
 .faq-question {
     background: #60758b;
     color: white;
-    padding: 15px;
+    padding: 32px;
     width: 100%;
     text-align: left;
     border: none;
     font-size: 1.1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    border-radius: 5px;
 }
 
 .faq-question:hover {
@@ -54,13 +53,12 @@ h2 {
 }
 
 .faq-answer {
-    padding: 15px;
+    padding: 32px;
     background-color: #bfbbce;
     border-left: 4px solid black;
     color: #3a504e;
     font-size: 1em;
     line-height: 1.6;
-    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
