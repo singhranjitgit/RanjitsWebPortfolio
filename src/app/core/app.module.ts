@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms'; // Import this
+import { ReactiveFormsModule } from '@angular/forms'; 
 
 import { AppComponent } from './app.component';
 import { ContactComponent } from '../components/contact/contact.component';
@@ -17,6 +17,7 @@ import { LogregComponent } from '../components/log-reg/log-reg.component';
 import { HighLightDirective } from '../Directives/work.directive';
 import { BlogsComponent } from '../components/blogs/blogs.component';
 import { BlogComponent } from '../components/blog/blog.component';
+import { FaqComponent } from '../components/faqs/faq.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -31,7 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     LogregComponent,
     BlogsComponent,
     BlogComponent,
-    HighLightDirective
+    HighLightDirective,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

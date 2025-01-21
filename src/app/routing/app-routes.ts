@@ -5,5 +5,6 @@ export const Routes: RoutesConfig={
     contact: '/contact',
     home: '/',
     work: '/work',
-    blogs: '/blogs'
+    blogs: '/blogs',
+    faq: '/faq'
 }

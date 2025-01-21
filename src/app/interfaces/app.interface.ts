@@ -14,3 +14,9 @@ export interface Blog{
   description: string;
   content?: string;
 }
+
+export interface Faq{
+  question: string;
+  answer: string;
+  isActive: boolean;
+}
