@@ -67,3 +67,7 @@ To get more help on the Angular CLI use ng help or go check out the Angular CLI 
 This site has been primarily developed to showcase the code structure and quality. While the design has been optimized for desktop viewing, the mobile view is currently more limited in focus.
 ignore other branches if want to see the curent code just clone main branch 
 
+# CI/CD
+
+Implemented automatic CI/CD pipeline in this project.
+
