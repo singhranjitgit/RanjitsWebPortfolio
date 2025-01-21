@@ -69,5 +69,5 @@ ignore other branches if want to see the curent code just clone main branch
 
 # CI/CD
 
-Implemented automatic CI/CD pipeline in this project.
+Implemented automatic CI/CD pipeline in this project using Netlify github integration.
 
