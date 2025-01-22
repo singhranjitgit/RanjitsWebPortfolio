@@ -13,6 +13,7 @@ export interface Blog{
   date: string;
   description: string;
   content?: string;
+  image?: string;
 }
 
 export interface Faq{
