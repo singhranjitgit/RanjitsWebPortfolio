@@ -35,7 +35,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
-    cursor: pointer;
 }
 
 .blog-post {
@@ -44,6 +43,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .blog-post:hover {
