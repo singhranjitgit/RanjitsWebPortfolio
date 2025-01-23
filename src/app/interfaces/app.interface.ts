@@ -21,3 +21,11 @@ export interface Faq{
   answer: string;
   isActive: boolean;
 }
+
+export interface workBlog{
+  background: string;
+  name: string;
+  desc: string;
+  link: string;
+  btnTxt: string;
+}
