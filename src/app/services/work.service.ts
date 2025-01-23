@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { workBlog } from '../interfaces';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +10,7 @@ export class WorkService {
 
   constructor() {}
 
-  getProjects(): any[]{
+  getProjects(): workBlog[]{
     return [
         {
             background: '../../../assets/image/Screenshot 2025-01-09 181027.webp',

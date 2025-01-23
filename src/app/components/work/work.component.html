@@ -6,7 +6,7 @@
                 </div>
         <div class="grid-container">
             <ng-container *ngFor="let item of workList">
-                <div class="tile">
+                <div class="tile" (click)="handleWorkBlockClick(item)">
                     <img [src]="item.background">
                     <div class="conta">
                         <div class="first">{{item.name}}</div>
