@@ -5,7 +5,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ContactComponent } from '../components/contact/contact.component';
 import { HomeComponent } from '../components/home/home.component';
-import { AboutComponent } from '../components/about/about.component';
 import { AppRoutingModule } from '../routing/app-routing.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';  
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';  
@@ -18,6 +17,7 @@ import { HighLightDirective } from '../Directives/work.directive';
 import { BlogsComponent } from '../components/blogs/blogs.component';
 import { BlogComponent } from '../components/blog/blog.component';
 import { FaqComponent } from '../components/faqs/faq.component';
+import { ServicesComponent } from '../components/services/services.component';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -25,7 +25,6 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
     ContactComponent,
     ConfirmPopupComponent,
     WorkComponent,
@@ -33,7 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BlogsComponent,
     BlogComponent,
     HighLightDirective,
-    FaqComponent
+    FaqComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

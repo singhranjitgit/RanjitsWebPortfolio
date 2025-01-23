@@ -27,11 +27,11 @@ export class AppService {
   getNavList(): NavItem[] {
     return [
       { title: 'HOMEPAGE.HOME', routeLink: this.routes.home },
-      { title: 'HOMEPAGE.ABOUT', routeLink: this.routes.about },
       { title: 'HOMEPAGE.CONTACT', routeLink: this.routes.contact },
       { title: 'HOMEPAGE.WORK', routeLink: this.routes.work },
       { title: 'HOMEPAGE.BLOGS', routeLink: this.routes.blogs },
       { title: 'HOMEPAGE.FAQS', routeLink: this.routes.faq },
+      { title: 'HOMEPAGE.SERVICES', routeLink: this.routes.services },
     ];
   }
 

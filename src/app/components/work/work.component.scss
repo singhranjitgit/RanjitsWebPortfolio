@@ -21,52 +21,58 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(3, minmax(0, 1fr));  
     grid-template-rows: repeat(2, auto);    
-    gap: 20px;                            
+    gap: 2rem;                            
     width: 80%;                           
     max-width: 1200px;                   
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
 }
 
 .tile {
-    background-color: #728795;
-    color: white;
-    border-radius: 12px;
+    color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: 1s ease;
     cursor: pointer; 
     background-size: cover !important;
     background-position: center !important;
-    height: 19rem;
+    height: 22.4rem;
+    background: white;
+    .conta{
+        padding: 1.25rem;
+        .first{
+            text-align: justify;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .second{
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 700;
+            text-align: justify;
+        }
+    }
 }
 
 .tile:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-4px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: #dad6da;
 }
 
 .tile img {
     width: 100%;
-    max-width: 288px;
-    height: 186px;
+    height: 13rem;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
 }
 
 .tile h2 {
     font-size: 22px;
-    margin: 10px 0;
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -74,9 +80,9 @@ body {
 
 .tile p {
     font-size: 14px;
-    color: #ecf0f1;
-    margin-bottom: 15px;
     line-height: 1.5;
+    --tw-text-opacity: 1;
+    color: rgb(119 128 161 / var(--tw-text-opacity));
 }
 
 .tile a {
@@ -87,10 +93,6 @@ body {
     border-radius: 30px;
     font-weight: bold;
     transition: background-color 0.3s ease;
-}
-
-.tile a:hover {
-    background-color: #16a085;
 }
 
 @media (max-width: 768px) {
@@ -110,12 +112,10 @@ body {
 .projects-header h1 {
     font-size: 36px;
     font-weight: bold;
-    color: white;
     margin-bottom: 10px;
 }
 
 .projects-header p {
     font-size: 16px;
-    color: white;
     margin-bottom: 40px;
 }

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+header .logo a {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #3498db;
+}
+
+.hero {
+    background-color: #3498db;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: #fff;
+    min-height: 44.2vw;
+}
+
+.service {
+    padding: 30px 280px;
+    margin: 20px 0;
+    text-align: center;
+    height: 100%;
+}
+
+.service h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 24px;
+    color: #7f8c8d;
+    margin-top: 28px;
+    text-align: start;
+}
+
+.sub-services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    height: fit-content;
+}
+
+.sub-service {
+    width: 48%; 
+    text-align: start;
+    height: fit-content;
+}
+
+.sub-service h3 {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.sub-service p {
+    font-size: 24px;
+    color: #7f8c8d;
+}
+
+svg{
+    margin-bottom: 16px;
+}
