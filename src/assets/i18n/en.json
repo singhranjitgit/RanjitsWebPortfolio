@@ -11,6 +11,7 @@
     "MY_BLOG": "My Blog",
     "FAQS": "Faq",
     "BLOG_T": "Faqs",
+    "SERVICES": "Services",
     "DESCRIPTION": "I am passionate MEAN/MERN Stack developer with more than 8 years of experience in web development industry" 
  },
  "ABOUTPAGE": {
@@ -20,7 +21,7 @@
     "EXPERIENCE": "Experience",
     "DESC_INTRO": "I have worked on various projects ranging from web applications to backend systems, leveraging tools like Angular, Node.js.",
     "WANNA_MORE": "Want to know more?",
-    "CONTACT_ME": "Contact me"
+    "CONTACT_ME": "CONTACT ME"
  },
  "CONTACTPAGE": {
     "CONTACT_ME": "Contact Me",
@@ -46,5 +47,17 @@
       "HEADING": "Featured Projects",
       "SUB_HEADING": "Here are just a few of our recent projects.",
       "BTN_TXT": "Visit Project"
-   }
+   },
+ "SERVICES":{
+   "HEADING": "Web Development",
+   "SUB_HEADING": "With a customer-centric approach and a passion for innovation, our team of experts ensures that your web app aligns perfectly with your vision. We take the time to understand your unique business requirements, allowing us to create bespoke solutions that elevate your online presence and drive success.",
+   "FRONT_END": "Front-End Web Development",
+   "FRONT_END_SUBHEADING": "Experience the power of advanced Frontend technologies like Angular, React.js as we create stunning web applications with reusable components and component-driven architecture. Our web application development company seamlessly combines captivating UI designs with the functionalities you need.",
+   "BACK_END": "Back-End Web Development",
+   "BACK_END_SUBHEADING": "Strong foundations are essential for web applications. Our expert backend development services ensure robust and scalable server-side solutions. From database design to API integration, we guarantee seamless functionality and exceptional performance for your web and mobile applications.",
+   "PORTAL": "Website & Portal Development",
+   "PORTAL_SUBHEADING": "Make a statement with your online presence through engaging web experiences. Our website and portal development services create visually stunning and user-friendly platforms. With responsive designs and intuitive navigation, we tailor every aspect to align perfectly with your brand and business goals.",
+   "API_DEV": "API Development",
+   "API_SUBHEADING": "Unlock the full potential of your systems with our API development expertise. Our robust and secure APIs facilitate seamless data exchange and enhance interoperability across your applications and platforms, empowering your business with streamlined workflows."
+ }
 }

@@ -1,6 +1,6 @@
 body {
-    background: #6c678b;
     font-family: Arial, sans-serif;
+    margin: 0;
     @media (max-width: 768px) {
       margin: 0;
       background-color: white;
@@ -10,41 +10,48 @@ body {
   .landing {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     background-color: #f4f4f4;
-    height: 44.2vw;
+    height: 44.8vw;
     box-shadow: 0 6px 12px #0000001a;
     width: 100%;
+    background-image: url('./assets/image/home-banner-image.svg');
+    background-color: #090919;
+    background-size: cover;
+    color: white;
     @media (max-width: 768px) {
       padding: 0 28px;
     }   
   }
   
+  .hero{
+    margin-top: 160px;
+  }
+  .hero p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
   .hero h1 {
     font-size: 3rem;
   }
   
   .cta-buttons {
-    margin-top: 20px;
+    margin-top: 28px;
   }
   
   .cta-button {
-    background-color: #007BFF;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     margin: 10px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 800;
     @media (max-width: 768px) {
       color: black;
     }
-  }
-  
-  .cta-button:hover {
-    background-color: #0056b3;
   }
   
   nav ul {
