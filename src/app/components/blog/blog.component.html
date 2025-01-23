@@ -1,5 +1,6 @@
 <header>
     <h1>{{"HOMEPAGE.MY_BLOG" | translate}}</h1>
+    <h1>{{"HOMEPAGE.RELATIVE_BLOG" | translate}}</h1>
 </header>
 
 <main class="blog-page">
@@ -9,6 +10,15 @@
         <p class="post-date">{{blogInfo?.date}}</p>
         <div class="post-content">
             <p [innerHTML]="blogInfo?.content"></p>
+        </div>
+    </article>
+    <article class="blog-post" *ngIf="nextInfo" (click)="handleBlogItemClick()">
+        <div class="blog-posts">
+        <img [src]="nextInfo?.image" alt="" class="post-image">
+        <h2 class="post-title">{{nextInfo?.name}}</h2>
+        <p class="post-meta">{{nextInfo?.date}}</p>
+        <p class="post-summary">{{nextInfo?.description}}</p>
+        <a class="read-more">Read More</a>
         </div>
     </article>
 </main>

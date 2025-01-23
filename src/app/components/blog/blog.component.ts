@@ -12,10 +12,19 @@ import { AppService } from "src/app/services/app.service";
 
 export class BlogComponent{
    blogInfo?: Blog;
+   nextInfo?: Blog;
+   nextId?: string;
    constructor(private routes: ActivatedRoute,
-     private appService: AppService){
+     private appService: AppService,
+     private router: Router){
      this.routes.params.subscribe((res: any)=>{
         this.blogInfo = this.appService.getBlogs()[res.id]
+        this.nextInfo = this.appService.getBlogs()[+(res.id)+1]
+        this.nextId = `${+(res.id)+ 1}`
      })
+   }
+
+   handleBlogItemClick(){
+      this.router.navigate(['blogs/blog/',this.nextId])
    }
 }
