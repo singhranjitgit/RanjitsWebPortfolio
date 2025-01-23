@@ -18,7 +18,8 @@ header {
     margin: 0 auto;
     display: flex;
     gap: 1018px;
-    padding: 40px 0px;
+    padding: 20px 0px;
+    margin-top: 24px;
 }
 
 header h1 {
@@ -171,4 +172,11 @@ footer {
     color: #34495e;
     margin-bottom: 6px;
     min-height: 126px;
+}
+.subheading{
+    font-size: 1.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
 }

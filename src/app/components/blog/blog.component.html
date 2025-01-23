@@ -1,6 +1,6 @@
 <header>
     <h1>{{"HOMEPAGE.MY_BLOG" | translate}}</h1>
-    <h1>{{"HOMEPAGE.RELATIVE_BLOG" | translate}}</h1>
+    <h1 class="subheading" *ngIf="nextInfo">{{"HOMEPAGE.RELATIVE_BLOG" | translate}}</h1>
 </header>
 
 <main class="blog-page">
