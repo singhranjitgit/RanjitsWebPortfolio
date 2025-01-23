@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body & Basic Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -15,9 +13,12 @@ body {
 }
 
 header {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    display: flex;
+    max-width: 1565px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1018px;
+    padding: 40px 0px;
 }
 
 header h1 {
@@ -25,10 +26,12 @@ header h1 {
     color: #333;
 }
 
-/* Blog Post Detail */
 .blog-page {
-    max-width: 1132px;
+    max-width: 1565px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
 }
 
 .post-detail {
@@ -68,7 +71,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Comments Section */
 .comments-section {
     background-color: #fff;
     padding: 20px;
@@ -130,10 +132,43 @@ header h1 {
     background-color: #0056b3;
 }
 
-/* Footer Styling */
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9em;
     color: #666;
+}
+
+.blog-post{
+    background-color: #fff;
+    cursor: pointer;
+    max-width: 25%;
+    min-height: 37rem;
+}
+
+.blog-posts{
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    min-height: 37rem;
+    padding: 32px;
+}
+
+.post-meta{
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.read-more{
+    font-size: 1rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.post-summary{
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 6px;
+    min-height: 126px;
 }
