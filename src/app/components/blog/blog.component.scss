@@ -14,10 +14,10 @@ body {
 
 header {
     display: flex;
-    max-width: 1565px;
+    max-width: 1856px;
     margin: 0 auto;
     display: flex;
-    gap: 1018px;
+    gap: 1235px;
     padding: 20px 0px;
     margin-top: 24px;
 }
@@ -28,7 +28,8 @@ header h1 {
 }
 
 .blog-page {
-    max-width: 1565px;
+    max-width: 1856px;
+
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -138,6 +139,9 @@ footer {
     margin-top: 40px;
     font-size: 0.9em;
     color: #666;
+}
+.footer{
+    padding-inline-start: 40px !important;
 }
 
 .blog-post{

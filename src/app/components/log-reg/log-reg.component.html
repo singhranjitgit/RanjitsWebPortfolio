@@ -44,10 +44,10 @@
         <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
       </div>
     </form>
-  </div>
+</div>
   
 
-  <div class="login-container" *ngIf="!loginView">
+<div class="login-container" *ngIf="!loginView">
     <h2>Sign Up</h2>
   
     <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
@@ -114,5 +114,5 @@
         <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Sign Up</button>
       </div>
     </form>
-  </div>
+</div>
   
