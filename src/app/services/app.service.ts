@@ -79,7 +79,7 @@ export class AppService {
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular Guide. All rights reserved.</p>
         </div>
@@ -257,7 +257,7 @@ export class DataService {
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular Services Guide. All rights reserved.</p>
         </div>
@@ -368,7 +368,7 @@ export class AboutComponent {}</code></pre>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular Routing Guide. All rights reserved.</p>
         </div>
@@ -503,7 +503,7 @@ export function forbiddenNameValidator(control: AbstractControl): ValidationErro
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular Forms Guide. All rights reserved.</p>
         </div>
@@ -596,7 +596,7 @@ export class HighlightDirective {
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular Directives Guide. All rights reserved.</p>
         </div>
@@ -733,7 +733,7 @@ getPosts(): Observable<any> {
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular HTTP Client Guide. All rights reserved.</p>
         </div>
@@ -892,7 +892,7 @@ export class AppComponent implements OnInit {
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Angular NgRx Guide. All rights reserved.</p>
         </div>

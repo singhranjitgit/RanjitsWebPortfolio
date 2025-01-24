@@ -13,7 +13,7 @@ export class WorkComponent{
         this.workList = this.workService.getProjects()
     }
 
-    handleWorkBlockClick(item: any){
+    handleWorkBlockClick(item: workBlog){
         window.open(item.link, '_blank')
     }
 }

@@ -12,8 +12,8 @@
             <p [innerHTML]="blogInfo?.content"></p>
         </div>
     </article>
-    <article class="blog-post" *ngIf="nextInfo" (click)="handleBlogItemClick()">
-        <div class="blog-posts">
+    <article class="blog-post" *ngIf="nextInfo">
+        <div class="blog-posts" (click)="handleBlogItemClick()">
         <img [src]="nextInfo?.image" alt="" class="post-image">
         <h2 class="post-title">{{nextInfo?.name}}</h2>
         <p class="post-meta">{{nextInfo?.date}}</p>
