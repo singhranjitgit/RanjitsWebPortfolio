@@ -2,9 +2,14 @@
     <h2>{{"HOMEPAGE.BLOG_T" | translate}}</h2>
     <div class="faq-container">
         <div class="faq-item" *ngFor="let faqItem of faqItems; let i=index">
-            <button class="faq-question" (click)="toggleAnswer(i)">{{faqItem.question}}</button>
-            <div class="faq-answer" *ngIf="faqItem.isActive">
-                <p>{{faqItem.answer}}</p>
+            <div class="faq-card">
+                <button class="faq-question" (click)="toggleAnswer(i)">
+                    <span class="question-text">{{faqItem.question}}</span>
+                    <span class="arrow" [ngClass]="{'rotated': faqItem.isActive}">&#x25BC;</span>
+                </button>
+                <div class="faq-answer" *ngIf="faqItem.isActive">
+                    <p>{{faqItem.answer}}</p>
+                </div>
             </div>
         </div>
     </div>
